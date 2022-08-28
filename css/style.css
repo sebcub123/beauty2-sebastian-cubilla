@@ -256,35 +256,32 @@ nav{
     }
 
     .main-contacto {
-        display: block;
-    }
-
-    .main-contacto ul {
         display: flex;
         justify-content: center;
     }
 
     .contNombre input {
-        width: 150px;
-        height: 30px;
+        width: 300px;
+        height: auto;
         margin: 20px;
+        align-content: center;
     }
 
     .contEmail input {
-        width: 150px;
-        height: 30px;
+        width: 100px;
+        height: auto;
         margin: 20px;
     }
 
     .contComentario textarea {
-        width: 150px;
-        height: 30px;
+        width: 100px;
+        height: auto;
         margin: 20px;
     }
 
     .contEnviar input {
-        width: 150px;
-        height: 30px;
+        width: 100px;
+        height: auto;
         margin: 20px;
     }
 }
